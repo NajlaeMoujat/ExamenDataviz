@@ -29,6 +29,10 @@ Lieux de tournage à Paris :
 
 Ajouter une Dataviz mettant en avant la position qu'occupe le cinéma parmis les lieux culturels les plus prisés :
 
+Panorama des festivals en Ile de France :
+
+<iframe src="https://data.opendatasoft.com/chart/embed/panorama_des_festivals_en_ile_de_france/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
+
 Ajouter le propriétaire de cinéma le plus répandu en France :
 
 Comparer les entrées de 2019 et 2020 :
