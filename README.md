@@ -7,8 +7,6 @@ OK
 Tableau des cinés actifs :
 <iframe src="https://data.culture.gouv.fr/explore/embed/dataset/etablissements-cinematographiques/table/?location=5,46.53754,2.40395&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjOGRhMGNiIn1dLCJ4QXhpcyI6InJlZ2lvbl9hZG1pbmlzdHJhdGl2ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImV0YWJsaXNzZW1lbnRzLWNpbmVtYXRvZ3JhcGhpcXVlcyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 
-Carte :
-<iframe src="https://data.culture.gouv.fr/explore/embed/dataset/etablissements-cinematographiques/map/?location=5,47.66539,7.99805&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjOGRhMGNiIn1dLCJ4QXhpcyI6InJlZ2lvbl9hZG1pbmlzdHJhdGl2ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImV0YWJsaXNzZW1lbnRzLWNpbmVtYXRvZ3JhcGhpcXVlcyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false&scrollWheelZoom=false" width="800" height="300" frameborder="0"></iframe>
 
 
 ***
@@ -20,6 +18,10 @@ Faire une intro concernant l'importance des cinémas en France mais aussi son im
 Classement des établissements cinématographie par région en 2018 :
 
 <iframe src="https://data.opendatasoft.com/chart/embed/classement_du_taux_dinfluence_des_cinemas_selon_la_region/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
+
+Carte :
+
+<iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
 Ajouter une Dataviz mettant en avant la position qu'occupe le cinéma parmis les lieux culturels les plus prisés :
 
