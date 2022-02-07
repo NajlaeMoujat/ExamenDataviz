@@ -13,6 +13,19 @@ Carte :
 
 ***
 
-Mes dataviz
+Mes dataviz :
+
+Faire une intro concernant l'importance des cinémas en France mais aussi son impact dans le patrimoine culturel français.
+
+Classement des établissements cinématographie par région en 2018 :
 
 <iframe src="https://data.opendatasoft.com/chart/embed/classement_du_taux_dinfluence_des_cinemas_selon_la_region/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
+
+Ajouter une Dataviz mettant en avant la position qu'occupe le cinéma parmis les lieux culturels les plus prisés :
+
+Ajouter le propriétaire de cinéma le plus répandu en France :
+
+Comparer les entrées de 2019 et 2020 :
+
+Comparer les différents types de films ( français, américain, européen et autre ) :
+
