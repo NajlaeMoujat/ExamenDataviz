@@ -79,5 +79,10 @@ Jeu de données des cinés :
   
 
 ## 5. Requêtes Wikidata <a id="T5"></a>
+  
+## 6. Affinage et nettoyage des dataset <a id="T6"></a>
+
+## 7. Conclusion <a id="T7"></a>
+
 
   
