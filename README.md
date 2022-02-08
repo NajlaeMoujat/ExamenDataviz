@@ -82,10 +82,13 @@ Jeu de données des cinés :
 ````sparql
 #Les films positionnés sur une carte en fonction des lieux de leur histoire
 #defaultView:Map
-SELECT ?film ?filmLabel ?lieu_histoire ?lieu_histoireLabel ?coordonees WHERE {
+SELECT ?film ?filmLabel ?lieu_histoire ?lieu_histoireLabel ?coordonees 
+WHERE 
+{
 ?film wdt:P840 ?lieu_histoire ;
 wdt:P31 wd:Q11424 .
 ?lieu_histoire wdt:P625 ?coordonees .
+  
 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
 }
 ````
