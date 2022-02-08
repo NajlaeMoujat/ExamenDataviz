@@ -9,7 +9,7 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 3. [Les meilleures audiences en salles depuis 1945](#T3)
 4. [Les genres les plus appréciés par les français depuis 1945](#T4)
 5. [Requêtes Wikidata](#T5)
-6. [Modification des jeux de données](#T6)
+6. [Affinage et nettoyage des dataset](#T6)
 7. [Conclusion](#T7)
 
 
