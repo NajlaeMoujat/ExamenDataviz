@@ -4,7 +4,7 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 
 # Sommaire 
 
-1. [Paris, capitale du Cinéma dans le monde](#T1)
+1. [Paris, capitale du Cinéma à travers le monde](#T1)
 2. [Le festival : un vecteur important de l'image animée](#T2)
 3. [Les meilleures audiences en salles depuis 1945](#T3)
 4. [Les genres les plus appréciés par les français depuis 1945](#T4)
@@ -13,7 +13,7 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 7. [Conclusion](#T7)
 
 
-## 1. Paris, capitale du Cinéma dans le monde. <a id="T1"></a>
+## 1. Paris, capitale du Cinéma à travers le monde. <a id="T1"></a>
 
 
 Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture. C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
@@ -52,9 +52,9 @@ De nombreuses manifestations cinématographiques très suivies ont lieu chaque a
 
 
 
-Genre classé : 
-
 <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+## 3. Les meilleures audiences en salles depuis 1945. <a id="T3"></a>
 
 
 Fréquentation des cinés :
@@ -72,6 +72,9 @@ Jeu de données des cinés :
 
   <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
   
+  
+  ## 4. Les genres les plus appréciés par les français depuis 1945. <a id="T4"></a>
+
 <iframe src='https://flo.uri.sh/visualisation/8647794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647794/?utm_source=embed&utm_campaign=visualisation/8647794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
   
 
