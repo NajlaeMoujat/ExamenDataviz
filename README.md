@@ -48,20 +48,9 @@ Carte :
 
 Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
 
-Parmi ces événements figurent les Paris Art and Movie Awards, le Festival du film indépendant de Paris et le Festival européen du film indépendant. Ces événements sont importants car ils permettent de faire connaître le cinéma produit en France et à Paris en particulier, en soulignant les réalisations nationales et en attirant un public plus large au cinéma.
+De nombreuses manifestations cinématographiques très suivies ont lieu chaque année à Paris et mettent en lumière les productions locales. Parmi ces événements figurent les Paris Art and Movie Awards, le Festival du film indépendant de Paris et le Festival européen du film indépendant. Ces événements sont importants car ils permettent de faire connaître le cinéma produit en France et à Paris en particulier, en soulignant les réalisations nationales et en attirant un public plus large au cinéma.
 
 
-
-De nombreuses manifestations cinématographiques très suivies ont lieu chaque année à Paris et mettent en lumière les productions locales.
-
-
-
-
-Ajouter le propriétaire de cinéma le plus répandu en France :
-
-Comparer les entrées de 2019 et 2020 :
-
-Comparer les différents types de films ( français, américain, européen et autre ) :
 
 Genre classé : 
 
