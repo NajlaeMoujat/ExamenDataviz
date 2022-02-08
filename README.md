@@ -1,12 +1,11 @@
-# Le Cinéma et les français.
-
+# Le Cinéma et les français, une longue histoire d'amour.
 
 # Sommaire 
 
-1. [Le Cinéma et les français, une longue histoire d'amour](#T1)
-2. [Paris, capitale du Cinéma dans le monde](#T2)
-3. [Et en France alors ? - Espérance de vie et espérance de vie sans incapacité](#T3)
-4. [Le Revenu National Brut par habitant et l'espérance de vie](#T4)
+1. [Paris, capitale du Cinéma dans le monde](#T1)
+2. [Les festivals : un vecteur important de l'image animée](#T2)
+3. [Les meilleures audiences en salles depuis 1945](#T3)
+4. [Les genres les plus appréciés par les français depuis 1945](#T4)
 5. [Modification des jeux de données](#T5)
 6. [Requêtes Wikidata](#T6)
 7. [Conclusion](#T7)
