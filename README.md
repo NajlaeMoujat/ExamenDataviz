@@ -8,8 +8,8 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 2. [Le festival : un vecteur important de l'image animée](#T2)
 3. [Les meilleures audiences en salles depuis 1945](#T3)
 4. [Les genres les plus appréciés par les français depuis 1945](#T4)
-5. [Modification des jeux de données](#T5)
-6. [Requêtes Wikidata](#T6)
+5. [Requêtes Wikidata](#T5)
+6. [Modification des jeux de données](#T6)
 7. [Conclusion](#T7)
 
 
@@ -78,5 +78,6 @@ Jeu de données des cinés :
 <iframe src='https://flo.uri.sh/visualisation/8647794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647794/?utm_source=embed&utm_campaign=visualisation/8647794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
   
 
+## 5. Requêtes Wikidata <a id="T5"></a>
 
   
