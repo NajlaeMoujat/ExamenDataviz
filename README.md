@@ -45,10 +45,6 @@ Carte :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
-Lieux de tournage à Paris :
-
-<iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
-
 Ajouter une Dataviz mettant en avant la position qu'occupe le cinéma parmis les lieux culturels les plus prisés :
 
 Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
@@ -61,13 +57,6 @@ De nombreuses manifestations cinématographiques très suivies ont lieu chaque a
 
 
 
-Panorama des festivals en Ile de France :
-
-<iframe src="https://data.opendatasoft.com/chart/embed/panorama_des_festivals_en_ile_de_france/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
-
-Panorama des festivals en France :
-
-<iframe src="https://data.opendatasoft.com/chart/embed/panorama_des_festivals_en_ile_de_france/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
 Ajouter le propriétaire de cinéma le plus répandu en France :
 
@@ -90,6 +79,13 @@ Jeu de données des cinés :
   
 <iframe title="Jeu de données recensant la fréquentation des salles de cinéma (ensemble des programmes : longs métrages et courts métrages) " aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
+  
+  
+
+  <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+  
+<iframe src='https://flo.uri.sh/visualisation/8647794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647794/?utm_source=embed&utm_campaign=visualisation/8647794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+  
 
 
   
