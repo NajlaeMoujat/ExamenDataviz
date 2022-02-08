@@ -5,7 +5,7 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 # Sommaire 
 
 1. [Paris, capitale du Cinéma dans le monde](#T1)
-2. [Les festivals : un vecteur important de l'image animée](#T2)
+2. [Le festival : un vecteur important de l'image animée](#T2)
 3. [Les meilleures audiences en salles depuis 1945](#T3)
 4. [Les genres les plus appréciés par les français depuis 1945](#T4)
 5. [Modification des jeux de données](#T5)
@@ -44,7 +44,7 @@ Carte :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
-## 2. Les festivals, un acteur important de l'image animée en France. <a id="T2"></a>
+## 2. Le festival, un acteur important de l'image animée en France. <a id="T2"></a>
 
 Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
 
