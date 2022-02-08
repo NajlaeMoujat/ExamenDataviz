@@ -41,7 +41,7 @@ Faire une intro concernant l'importance des cinémas en France mais aussi son im
 
 Classement des établissements cinématographie par région en 2018 :
 
-<iframe src="https://data.opendatasoft.com/chart/embed/classement_du_taux_dinfluence_des_cinemas_selon_la_region/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
+<iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/frequentationcine/?&static=false&scrollWheelZoom=false"></iframe>
 
 Carte :
 
