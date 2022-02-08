@@ -1,5 +1,7 @@
 # Le Cinéma et les français, une longue histoire d'amour.
 
+La France peut, à juste titre, prétendre avoir inventé le concept même du cinéma. Les historiens du cinéma considèrent "L'arrivée d'un train en gare de La Ciotat", le film de 50 secondes des frères Lumière projeté pour la première fois en 1895, comme l'évènement marquant la naissance du cinéma. La France est l'industrie cinématographique la plus performante d'Europe en termes de nombre de films produits par an, avec un record de plus de 300 longs métrages produits en 2015.
+
 # Sommaire 
 
 1. [Paris, capitale du Cinéma dans le monde](#T1)
@@ -11,9 +13,10 @@
 7. [Conclusion](#T7)
 
 
-## 1. Le Cinéma et les français, une longue histoire d'amour <a id="T1"></a>
+## 1. Paris, capitale du Cinéma dans le monde. <a id="T1"></a>
 
-La France peut, à juste titre, prétendre avoir inventé le concept même du cinéma. Les historiens du cinéma considèrent "L'arrivée d'un train en gare de La Ciotat", le film de 50 secondes des frères Lumière projeté pour la première fois en 1895, comme l'évènement marquant la naissance du cinéma. La France est l'industrie cinématographique la plus performante d'Europe en termes de nombre de films produits par an, avec un record de plus de 300 longs métrages produits en 2015.
+
+Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture. C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
 
 
 ### A - Les Cinémas en France 
@@ -23,18 +26,15 @@ Les cinés actifs :
 <iframe src="https://data.culture.gouv.fr/explore/embed/dataset/etablissements-cinematographiques/table/?location=5,46.53754,2.40395&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjOGRhMGNiIn1dLCJ4QXhpcyI6InJlZ2lvbl9hZG1pbmlzdHJhdGl2ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImV0YWJsaXNzZW1lbnRzLWNpbmVtYXRvZ3JhcGhpcXVlcyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 
 
-## 2. Paris, capitale du Cinéma dans le monde. <a id="T2"></a>
 
 
 Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
-
 
 C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
 
 
 
 
-Faire une intro concernant l'importance des cinémas en France mais aussi son impact dans le patrimoine culturel français.
 
 Classement des établissements cinématographie par région en 2018 :
 
@@ -44,7 +44,7 @@ Carte :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
-Ajouter une Dataviz mettant en avant la position qu'occupe le cinéma parmis les lieux culturels les plus prisés :
+## 2. Les festivals, un acteur important de l'image animée en France. <a id="T2"></a>
 
 Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
 
