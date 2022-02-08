@@ -75,9 +75,21 @@ Comparer les entrées de 2019 et 2020 :
 
 Comparer les différents types de films ( français, américain, européen et autre ) :
 
-<iframe title="Fréquentation des salles de cinéma (ensemble des programmes : longs métrages et courts métrages)" aria-label="Interactive line chart" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+Genre classé : 
+
+<iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+
+Fréquentation des cinés :
+
+<iframe title="Fréquentation des salles de cinéma en France " aria-label="Interactive line chart" id="datawrapper-chart-5rT3e" src="https://datawrapper.dwcdn.net/5rT3e/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
   
 
-<iframe title="Fréquentation des salles de cinéma (ensemble des programmes : longs métrages et courts métrages) " aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="757"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+Jeu de données des cinés :
+  
+<iframe title="Jeu de données recensant la fréquentation des salles de cinéma (ensemble des programmes : longs métrages et courts métrages) " aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
+
+
+  
