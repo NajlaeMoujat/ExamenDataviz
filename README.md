@@ -220,6 +220,7 @@ L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, 
 ```
   
 ## 7. Conclusion <a id="T7"></a>
+ 
 
 
   
