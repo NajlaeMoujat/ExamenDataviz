@@ -100,7 +100,8 @@ Ainsi nous pouvons constater grâce à cette carte que les lieux d'histoire des 
 ## 6. Affinage et nettoyage des dataset <a id="T6"></a>
   
 L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, organiser et uniformiser mon jeu de données afin de pouvoir l'exploiter plus facilement. 
-  
+
+'''sparql
   [
   {
     "op": "core/column-rename",
@@ -216,7 +217,8 @@ L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, 
     "description": "Remove rows"
   }
 ]
-
+'''
+  
 ## 7. Conclusion <a id="T7"></a>
 
 
