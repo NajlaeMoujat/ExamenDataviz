@@ -71,8 +71,8 @@ Jeu de données des cinémas :
 
   
 ## 4. Les genres les plus appréciés par les français depuis 1945. <a id="T4"></a>
-  
-
+ 
+Dans cette étude du cinéma et des français, il est intéréssant de savoir quels genres cinématographiques sont les plus populaires auprès des téléspectateurs français. Ainsi, la réalisation d'un classement de ces genres est très pertinent car il permet de connaître les goûts cinématographiques du peuple français mais aussi d'en savoir plus sur les films les plus appréciés de ces derniers.
 
 <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -81,21 +81,25 @@ Jeu de données des cinémas :
 
 ## 5. Requêtes Wikidata <a id="T5"></a>
 
+ 
   Requête :
   
 ````sparql
-#Les films positionnés sur une carte en fonction des lieux de leur histoire
+
 #defaultView:Map
 SELECT ?film ?filmLabel ?lieu_histoire ?lieu_histoireLabel ?coordonees 
 WHERE 
 {
-?film wdt:P31 wd:Q11424 . #permet de trouver les films
-?film wdt:P840 ?lieu_histoire . #permet de trouver les lieux d'histoire des films
-?lieu_histoire wdt:P625 ?coordonees . #permet de trouver les coordonnées géographiques de ces lieux
+?film wdt:P31 wd:Q11424 . 
+?film wdt:P840 ?lieu_histoire .
+?lieu_histoire wdt:P625 ?coordonees . 
   
 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
 }
 ````
+ 
+Cette première requête permet de représenter les films positionnés en fonction des lieux de leur histoire sur une carte géographique mondiale.
+ 
   Résultat :
   
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Les%20films%20positionn%C3%A9s%20sur%20une%20carte%20en%20fonction%20des%20lieux%20de%20leur%20histoire%0A%23defaultView%3AMap%0ASELECT%20%3Ffilm%20%3FfilmLabel%20%3Flieu_histoire%20%3Flieu_histoireLabel%20%3Fcoordonees%20WHERE%20%7B%0A%3Ffilm%20wdt%3AP840%20%3Flieu_histoire%20%3B%0Awdt%3AP31%20wd%3AQ11424%20.%0A%3Flieu_histoire%20wdt%3AP625%20%3Fcoordonees%20.%0ASERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cfr%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
@@ -120,13 +124,15 @@ FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_pu
 GROUP BY ?_genreLabel ?annee
 ORDER BY ?annee
 ````
+ Cette deuxième requête établit un classement du nombre de films par genre et par année.
+                                                                                                            
   Résultat :
                                                                                                             
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fannee%20%28COUNT%28%3F_genre%29%20AS%20%3FNombredeFilm%20%29%28SAMPLE%28%3F_genreLabel%29%20AS%20%3Fgenre%20%29%0AWHERE%20%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ11424.%20%20%0A%3Fitem%20wdt%3AP577%20%3Fdate_publication.%0A%3Fitem%20wdt%3AP136%20%3F_genre.%20%0A%3F_genre%20rdfs%3Alabel%20%3F_genreLabel.%0ABIND%28str%28YEAR%28%3Fdate_publication%29%29%20AS%20%3Fannee%29%0AFILTER%28%28LANG%28%3F_genreLabel%29%29%20%3D%20%22fr%22%29%20%0A%0AFILTER%20%28%28%3Fdate_publication%20%3E%3D%20%221945-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%20%26%26%20%28%3Fdate_publication%20%3C%3D%20%221990-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%29%0A%7D%0AGROUP%20BY%20%3F_genreLabel%20%3Fannee%0AORDER%20BY%20%3Fannee" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
   
 ## 6. Affinage et nettoyage des dataset <a id="T6"></a>
   
-L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, organiser et uniformiser mon jeu de données afin de pouvoir l'exploiter plus facilement. 
+L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, organiser et uniformiser mon jeu de données afin de l'exploiter plus facilement. 
 
 ```sparql
   [
