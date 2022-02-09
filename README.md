@@ -16,7 +16,9 @@ La France peut, à juste titre, prétendre avoir inventé le concept même du ci
 ## 1. Paris, capitale du Cinéma à travers le monde. <a id="T1"></a>
 
 
-Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture. C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
+Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture. 
+
+C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
 
 
 ### A - Les Cinémas en France 
@@ -26,20 +28,17 @@ Jeu de données des cinémas actifs en France :
 <iframe src="https://data.culture.gouv.fr/explore/embed/dataset/etablissements-cinematographiques/table/?location=5,46.53754,2.40395&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjOGRhMGNiIn1dLCJ4QXhpcyI6InJlZ2lvbl9hZG1pbmlzdHJhdGl2ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImV0YWJsaXNzZW1lbnRzLWNpbmVtYXRvZ3JhcGhpcXVlcyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 
 
-Dans un premier j'ai utilisé ce premier jeu de données qui représenté à l'état brut. Puis par la suite j'ai affiné le jeu de données sur OpenRefine afin de ne garder que les jeux de données les plus pertinents et prépondérants dans mon analyse du cinéma. 
+Dans un premier j'ai utilisé ce premier jeu de données qui représente à l'état brut les données des cinémas actifs en France. Puis par la suite j'ai affiné le jeu de données sur OpenRefine afin de ne garder que les jeux de données les plus pertinents et prépondérants dans mon analyse du cinéma.
 
-Paris possède la plus forte densité de cinémas au monde, avec près de 420 écrans de cinéma, la capitale s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
-
-C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au monde en 1895. Depuis, Paris n'a cessé de prospérer en tant que visage mondial du cinéma, avec ses 364 salles présentant non seulement des productions françaises indépendantes et grand public, mais aussi les meilleures œuvres cinématographiques du monde entier.
-
-
+Ce jeux de données montre que la France dispose d'un très large pannel de cinémas au sein de son territoire, non seulement les films exposés sont considérablement variés mais l'audience française encourage l'augmentation de séances de cinémas qui sont déjà nombreuses afin de satisfaire son public très demandeur.
 
 
 
 Classement des établissements cinématographiques par région en 2018 :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/frequentationcine/?&static=false&scrollWheelZoom=false"></iframe>
-Comme nous le savons, le cinéma occupe une grande place dans la culture français/ les centres d'interêt des français.
+
+Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par démontre l'ascendence du cinéma sur l'ensemble des régions françaises.
 
 Carte :
 
@@ -64,7 +63,7 @@ Les français
 
 Jeu de données des cinémas :
   
-<iframe title="Jeu de données recensant la fréquentation des salles de cinéma (ensemble des programmes : longs métrages et courts métrages) " aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Jeu de données recensant la fréquentation des salles de cinéma" aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
   
   Ce tableau nous permet de voir l'évolution des places d'entrées au cinéma en France. Les couleurs foncées de la colonne "entrée (en millions)" nous montre le taux d'influence les plus forts dans les cinémas français.
