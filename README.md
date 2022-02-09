@@ -36,7 +36,7 @@ C'est d'ailleurs à Paris qu'a eu lieu la toute première projection de film au 
 
 
 
-Classement des établissements cinématographie par région en 2018 :
+Classement des établissements cinématographiques par région en 2018 :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/frequentationcine/?&static=false&scrollWheelZoom=false"></iframe>
 Comme nous le savons, le cinéma occupe une grande place dans la culture français/ les centres d'interêt des français.
@@ -81,7 +81,7 @@ Jeu de données des cinémas :
 
 ## 5. Requêtes Wikidata <a id="T5"></a>
 
-  #Requête :
+  Requête :
   
 ````sparql
 #Les films positionnés sur une carte en fonction des lieux de leur histoire
@@ -96,13 +96,13 @@ WHERE
 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
 }
 ````
-  #Résultat :
+  Résultat :
   
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Les%20films%20positionn%C3%A9s%20sur%20une%20carte%20en%20fonction%20des%20lieux%20de%20leur%20histoire%0A%23defaultView%3AMap%0ASELECT%20%3Ffilm%20%3FfilmLabel%20%3Flieu_histoire%20%3Flieu_histoireLabel%20%3Fcoordonees%20WHERE%20%7B%0A%3Ffilm%20wdt%3AP840%20%3Flieu_histoire%20%3B%0Awdt%3AP31%20wd%3AQ11424%20.%0A%3Flieu_histoire%20wdt%3AP625%20%3Fcoordonees%20.%0ASERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cfr%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
   
-Ainsi nous pouvons constater grâce à cette carte que les lieux d'histoire des se déroulent principalement en Europe et se concentre bien dans le territoire français.
+Ainsi nous pouvons constater grâce à cette carte que les lieux d'histoire des films se déroulent principalement en Europe et se concentrent bien dans les alentours du territoire français.
   
-  #Requête :
+  Requête :
   
 ````sparql
 SELECT ?annee (COUNT(?_genre) AS ?NombredeFilm )(SAMPLE(?_genreLabel) AS ?genre )
@@ -120,7 +120,7 @@ FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_pu
 GROUP BY ?_genreLabel ?annee
 ORDER BY ?annee
 ````
-  #Résultat :
+  Résultat :
                                                                                                             
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fannee%20%28COUNT%28%3F_genre%29%20AS%20%3FNombredeFilm%20%29%28SAMPLE%28%3F_genreLabel%29%20AS%20%3Fgenre%20%29%0AWHERE%20%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ11424.%20%20%0A%3Fitem%20wdt%3AP577%20%3Fdate_publication.%0A%3Fitem%20wdt%3AP136%20%3F_genre.%20%0A%3F_genre%20rdfs%3Alabel%20%3F_genreLabel.%0ABIND%28str%28YEAR%28%3Fdate_publication%29%29%20AS%20%3Fannee%29%0AFILTER%28%28LANG%28%3F_genreLabel%29%29%20%3D%20%22fr%22%29%20%0A%0AFILTER%20%28%28%3Fdate_publication%20%3E%3D%20%221945-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%20%26%26%20%28%3Fdate_publication%20%3C%3D%20%221990-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%29%0A%7D%0AGROUP%20BY%20%3F_genreLabel%20%3Fannee%0AORDER%20BY%20%3Fannee" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
   
@@ -247,7 +247,16 @@ L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, 
 ```
   
 ## 7. Conclusion <a id="T7"></a>
+  
+Pour la plupart des cinéphiles anglophones, une grande partie du cinéma français pourrait être considérée comme du cinéma d'art et d'essai.
+Cela s'explique par le fait que la France ne produit pas seulement des films pour faire du profit au box-office comme le font de nombreux autres marchés cinématographiques.
+  
+Les Français utilisent l'expression "cinéma d'art et d'essai" pour décrire les films qui ont de l'ambition, mais dont le but artistique et expressif l'emporte sur la rentabilité.
+Paris accueille ces films spéciaux grâce à sa forte culture cinématographique et au grand nombre de cinémas indépendants qui sont des lieux parfaits pour les projections.
+
+Contrairement à France, les autres pays ont tendance à séparer les films d'art et d'essai des superproductions en les projetant dans des cinémas différents, mais les cinémas parisiens indépendants comblent le fossé et donnent aux cinéphiles l'occasion unique de voir tout l'éventail de ce qui est proposé.
+
+Cela souligne l'attitude ouverte de Paris à l'égard des films et l'appréciation de la population parisienne pour toutes les formes de grand écran.
  
-
-
+Paris s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
   
