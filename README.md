@@ -28,9 +28,9 @@ Jeu de données des cinémas actifs en France :
 <iframe src="https://data.culture.gouv.fr/explore/embed/dataset/etablissements-cinematographiques/table/?location=5,46.53754,2.40395&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjOGRhMGNiIn1dLCJ4QXhpcyI6InJlZ2lvbl9hZG1pbmlzdHJhdGl2ZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImV0YWJsaXNzZW1lbnRzLWNpbmVtYXRvZ3JhcGhpcXVlcyIsIm9wdGlvbnMiOnt9fX1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 
 
-Dans un premier j'ai utilisé ce premier jeu de données qui représente à l'état brut les données des cinémas actifs en France. Puis par la suite j'ai affiné le jeu de données sur OpenRefine afin de ne garder que les jeux de données les plus pertinents et prépondérants dans mon analyse du cinéma.
+Pour commencer mon étude, j'ai utilisé ce premier jeu de données qui représente à l'état brut les données des cinémas actifs en France. Puis par la suite j'ai affiné le jeu de données sur OpenRefine afin de ne garder que les éléments les plus pertinents et prépondérants dans mon analyse du cinéma.
 
-Ce jeux de données montre que la France dispose d'un très large pannel de cinémas au sein de son territoire, non seulement les films exposés sont considérablement variés mais l'audience française encourage l'augmentation de séances de cinémas qui sont déjà nombreuses afin de satisfaire son public très demandeur.
+Ce jeu de données révèle que la France dispose d'un très large pannel de cinémas au sein de son territoire, non seulement les films exposés sont considérablement variés mais l'audience française encourage l'augmentation de séances de cinémas qui sont déjà nombreuses afin de satisfaire son public très demandeur.
 
 
 
