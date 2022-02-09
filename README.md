@@ -49,17 +49,7 @@ La France est bien connu pour ces nombreux festivals de films, qui dépasse larg
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
-Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. 
-
-Pour la plupart des cinéphiles anglophones, une grande partie du cinéma français pourrait être considérée comme du cinéma d'art et d'essai.
-Cela s'explique par le fait que la France ne produit pas seulement des films pour faire du profit au box-office comme le font de nombreux autres marchés cinématographiques.
-  
-Les Français utilisent l'expression "cinéma d'art et d'essai" pour décrire les films qui ont de l'ambition, mais dont le but artistique et expressif l'emporte sur la rentabilité.
-Paris accueille ces films spéciaux grâce à sa forte culture cinématographique et au grand nombre de cinémas indépendants qui sont des lieux parfaits pour les projections.
-
-Contrairement à France, les autres pays ont tendance à séparer les films d’art et d’essai des superproductions en les projetant dans des cinémas différents, mais les cinémas parisiens indépendants comblent le fossé et donnent aux cinéphiles l’occasion unique de voir tout l’éventail de ce qui est proposé.
-Cela souligne l’attitude ouverte de Paris à l’égard des films et l’appréciation de la population parisienne pour toutes les formes de grand écran.
-Paris s’est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
+Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
 
 De nombreuses manifestations cinématographiques très suivies ont lieu chaque année à Paris et mettent en lumière les productions locales. Parmi ces événements figurent les Paris Art and Movie Awards, le Festival du film indépendant de Paris et le Festival européen du film indépendant. Ces événements sont importants car ils permettent de faire connaître le cinéma produit en France et à Paris en particulier, en soulignant les réalisations nationales et en attirant un public plus large au cinéma.
 
@@ -96,7 +86,7 @@ Dans cette étude du cinéma et des français, il est intéréssant de savoir qu
  
  Les films dramatiques occupent la première la place, qui sont suivis des films de comédie. Ces deux genres sont les plus appréciés par l'audience française de 1945 à 1990 ( une période limité car la requête Wikidata ne peut supporter une très longue période ).
 
-Avec cette datavisualisation, j’ai fait le choix de représenter les plus grands succès au box-office. Le classement de ces genres cinématographique semblent évident grâce à cette visualisation. Les comédies occupent la première place du classement, ensuite vient l’animation puis le drame, ensuite la fiction et des genres plus variés comme les comédies musicales, drame/comédie... 
+Avec cette datavisualisation, j’ai rassemblé par genre, titre, on a les plus gros box, les meilleures audiences sont les comédies ensuite vient l’animation puis le drame puis la fiction et des genres plus variés comme comédie musicale, drame/ comédie. J’ai fait le choix de représenter les plus grands succès au box-office et on voit que les comédies sont suivies de très près les animations et qui est surplombé par les drames.
  
 ## 5. Requêtes Wikidata <a id="T5"></a>
 
@@ -282,15 +272,25 @@ Dans mon étude je ne me suis pas intéressée aux bénéfices financiers mais p
 ```
   
 ## 7. Conclusion <a id="T7"></a>
+  
+Pour la plupart des cinéphiles anglophones, une grande partie du cinéma français pourrait être considérée comme du cinéma d'art et d'essai.
+Cela s'explique par le fait que la France ne produit pas seulement des films pour faire du profit au box-office comme le font de nombreux autres marchés cinématographiques.
+  
+Les Français utilisent l'expression "cinéma d'art et d'essai" pour décrire les films qui ont de l'ambition, mais dont le but artistique et expressif l'emporte sur la rentabilité.
+Paris accueille ces films spéciaux grâce à sa forte culture cinématographique et au grand nombre de cinémas indépendants qui sont des lieux parfaits pour les projections.
+
+Contrairement à France, les autres pays ont tendance à séparer les films d'art et d'essai des superproductions en les projetant dans des cinémas différents, mais les cinémas parisiens indépendants comblent le fossé et donnent aux cinéphiles l'occasion unique de voir tout l'éventail de ce qui est proposé.
+
+Cela souligne l'attitude ouverte de Paris à l'égard des films et l'appréciation de la population parisienne pour toutes les formes de grand écran.
+ 
+Paris s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
 
  
-J’ai pris plaisir à faire cette étude car je suis une véritable cinéphile, j’en ai appris davantage sur le sujet, en découvrant l’importance du cinéma, l’importance qu’elle a au sein de la France. C’est une expérience nouvelle car je n’ai jamais manipulé une base de données aussi importante auparavant. L’air de  rien des outils tels que OpenRefine sont d’une grande aide. J’ai apprécié le travail qu’il est possible de faire via la datavisualisation en terme de représentation. La donnée a un véritable poids et qu’avec  un graphisme évocateur on peut en faire ressortir le meilleur comme par exemple Flourish et Datawrapper qui m'ont permis d'opter pour une visualisation très claire et attrayante par sa mise en forme.
+J’ai pris plaisir à faire cette étude car je suis une véritable cinéphile, j’en ai appris davantage sur le sujet, en découvrant l’importance du cinéma, l’importance que le grand occupe au sein du patrimoine culturel français. C’est une expérience nouvelle car je n’ai jamais manipulé de jeux de données aussi importants auparavant. L’air de rien des outils tels que OpenRefine sont d’une grande aide. J’ai apprécié le travail qu’il est possible de faire via la datavisualisation en terme de représentation. La donnée a un véritable poids,un graphisme bien pensé est bien plus évocateur qu'une quantité de données : Flourish et Datawrapper  m'ont permis d'opter pour dess datavisualisations relativement claires et attrayantes en terme de mise en forme.
  
-Cependant, j’ai été confronté à certaines limites à la fois techniques mais aussi en termes de ressources car les jeux de données propre au cinéma français demeurent peu nombreux, mis à part ceux mis à disposition par le Centre national de cinéma et de l’image animée et quelques jeux de données mis à disposition tels que data.gouv.fr. Ces dernières ne sont pas inépuisables car elles sont assez minces dans le domaine du cinéma. 
-Ce sont les seules données, dans ces jeux de données il manquait des paramètres tel que le genre qui semble évident et pertinent à mettre en parallèle dans ce jeu de donnés.
+Néanmoins, j’ai toutefois été confronté à certaines limites d'ordre technique mais également en termes de ressources car les jeux de données propre au cinéma français demeurent peu nombreux, mis à part ceux mis à disposition par le Centre National de Cinéma et de l’Image Animée et quelques jeux de données mis à disposition via data.gouv.fr. Ces derniers ne sont pas monnaie courrante dans le domaine du cinéma. 
+Danss les jeux de donées qu'il m'a été donné d'observer, il manquait des paramètres tel que le genre qui me semblait relativement pertinent dans le cadre d'une datavisulation afin de mettre en lumière les genres les plus appréciés par les français depuis 1945 par exemple.
  
-Malgré avoir utilisé OpenRefine et avoir uniformisé les jeux de données parfois il y a des données qui apparaissaient en doublon ou en plusieurs catégories distinctes alors qu’il s’agissait de la même nomenclature dont j'ai apporté une attention particulière à la casse. Cette problématique à biaisait ma datavisualisation ce qui m’a conduit à ne pas représenter ces valeurs-ci.
- 
-Cette analyse de données fut très enrichissante et novatrice pour moi.
+Malgré avoir utilisé OpenRefine et avoir uniformisé les jeux de données parfois il y a des données qui apparaissaient en doublon ou en diverses catégories distinctes alors qu’il s’agissait de la même nomenclature pour laquelle j'avais apporté une attention toute particulière à la casse. Ces valeurs apparaissant plusieurs fois lors de la réalisation de datavisulations elles consitutaient des biais évidents ce qui m’a conduit à ne pas représenter les représenter.
 
   
