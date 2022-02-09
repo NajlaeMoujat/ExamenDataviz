@@ -115,7 +115,7 @@ WHERE
 BIND(str(YEAR(?date_publication)) AS ?annee)
 FILTER((LANG(?_genreLabel)) = "fr") 
 
-FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_publication <= "1999-12-31T00:00:00Z"^^xsd:dateTime))
+FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_publication <= "1990-12-31T00:00:00Z"^^xsd:dateTime))
 }
 GROUP BY ?_genreLabel ?annee
 ORDER BY ?annee
