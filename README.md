@@ -38,9 +38,9 @@ Classement des établissements cinématographiques par département en 2018 :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/frequentationcine/?&static=false&scrollWheelZoom=false"></iframe>
 
-Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par département démontre l'ascendence du cinéma sur l'ensemble des régions françaises. Les taux de concentration des départements les plus forts sont dispersés un peu partout en France, du nord (59, 75, 77, 78, 91, 92, 94) au sud (83), de l'ouest (44, 35, 33) à l'est (38, 73). Néanmoins on note une très forte de concentration en ile de France notamment à Paris avec près de 405 écrans et 84 établissements comme énoncés plus haut. 
-Ces fortes concentrations s'expliquent par de la présence de nombreux évènements tels que le festival de Cannes, César, Reims Polar ...
-La France est bien connu pour ces nombreux festivals de films, qui dépasse largement ceux des autres pays européens.
+Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par département démontre l'ascendence du cinéma sur l'ensemble des régions françaises. Les taux de concentration des départements les plus forts sont dispersés un peu partout en France, du nord (59, 75, 77, 78, 91, 92, 94) au sud (83), de l'ouest (44, 35, 33) à l'est (38, 73). Néanmoins, on note une très forte concentration des salles de cinémas en Ile-de-France notamment à Paris avec près de 405 écrans et 84 établissements comme énoncé plus haut. 
+Ces fortes concentrations s'expliquent en partie par de la présence de nombreux évènements tels que le festival de Cannes, César, Reims Polar ...
+En effet, la France est bien connu pour ces nombreux festivals de films, qui dépasse largement ceux des autres pays européens.
 
 
 
@@ -73,7 +73,7 @@ Jeu de données des cinémas :
   
 ## 4. Les genres les plus appréciés par les français depuis 1945. <a id="T4"></a>
  
-Dans cette étude du cinéma et des français, il est intéréssant de savoir quels genres cinématographiques sont les plus populaires auprès des téléspectateurs français. Ainsi, la réalisation d'un classement de ces genres est très pertinent car il permet de connaître les goûts cinématographiques du peuple français mais aussi d'en savoir plus sur les films les plus appréciés de ces derniers.
+Dans cette étude du cinéma et des français, il est intéréssant d'observer quels sont les genres cinématographiques  les plus populaires auprès des spectateurs français. Ainsi, la réalisation d'un classement de ces genres est très pertinente dans la mesure où elle met en lumière les goûts cinématographiques du peuple français depuis 1945 mais aussi d'en savoir plus sur les films les plus appréciés de ces derniers.
 
 <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -82,10 +82,11 @@ Dans cette étude du cinéma et des français, il est intéréssant de savoir qu
  
  L'évolution des différents types de genres cinématographiques au fil des années :
  
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%20%3Fannee%20%28COUNT%28%3F_genre%29%20AS%20%3FNombredeFilm%20%29%28SAMPLE%28%3F_genreLabel%29%20AS%20%3Fgenre%20%29%0AWHERE%20%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ11424.%20%20%0A%3Fitem%20wdt%3AP577%20%3Fdate_publication.%0A%3Fitem%20wdt%3AP136%20%3F_genre.%20%0A%3F_genre%20rdfs%3Alabel%20%3F_genreLabel.%0ABIND%28str%28YEAR%28%3Fdate_publication%29%29%20AS%20%3Fannee%29%0AFILTER%28%28LANG%28%3F_genreLabel%29%29%20%3D%20%22fr%22%29%20%0A%0AFILTER%20%28%28%3Fdate_publication%20%3E%3D%20%221945-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%20%26%26%20%28%3Fdate_publication%20%3C%3D%20%221990-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%29%0A%7D%0AGROUP%20BY%20%3F_genreLabel%20%3Fannee%0AORDER%20BY%20%3Fannee" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
- Les films dramatiques occupent la première place, suivient des films de comédie. Ces deux genres sont les plus appréciés par l'audience française de 1945 à 1990 ( une période limité car la requête Wikidata ne peut supporter une très longue période ).
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fannee%20%28COUNT%28%3F_genre%29%20AS%20%3FNombredeFilm%20%29%28SAMPLE%28%3F_genreLabel%29%20AS%20%3Fgenre%20%29%0AWHERE%20%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ11424.%20%20%0A%3Fitem%20wdt%3AP577%20%3Fdate_publication.%0A%3Fitem%20wdt%3AP136%20%3F_genre.%20%0A%3F_genre%20rdfs%3Alabel%20%3F_genreLabel.%0ABIND%28str%28YEAR%28%3Fdate_publication%29%29%20AS%20%3Fannee%29%0AFILTER%28%28LANG%28%3F_genreLabel%29%29%20%3D%20%22fr%22%29%20%0A%0AFILTER%20%28%28%3Fdate_publication%20%3E%3D%20%221945-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%20%26%26%20%28%3Fdate_publication%20%3C%3D%20%221990-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%29%0A%7D%0AGROUP%20BY%20%3F_genreLabel%20%3Fannee%0AORDER%20BY%20%3Fannee" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+ 
+ Les films dramatiques occupent la première la place, qui sont suivis des films de comédie. Ces deux genres sont les plus appréciés par l'audience française de 1945 à 1990 ( une période limitée car la requête Wikidata ne peut supporter une très longue période).
 
-Avec cette datavisualisation, j’ai rassemblé par genre, titre, on a les plus gros box, les meilleures audiences sont les comédies ensuite vient l’animation puis le drame puis la fiction et des genres plus variés comme comédie musicale, drame/ comédie. J’ai fait le choix de représenter les plus grands succès au box-office et on voit que les comédies sont suivies de très près les animations et qui est surplombé par les drames.
+Avec cette datavisualisation, j’ai rassemblé par genre, titre, et les plus gros succés au box-office, les meilleures audiences sont les comédies ensuite vient l’animation, le drame puis la fiction, plus loin derrière on note et des genres plus variés comme la comédie musicale, drame/ comédie. J’ai fait le choix de représenter les plus grands succès au box-office et on voit que les comédies sont suivies de très près les animations et qui est surplombé par les drames.
  
 ## 5. Requêtes Wikidata <a id="T5"></a>
 
@@ -132,7 +133,7 @@ FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_pu
 GROUP BY ?_genreLabel ?annee
 ORDER BY ?annee
 ````
- Cette deuxième requête établit un classement du nombre de films par genre et par année de 1945 à 1990. Il fut nécessaire d'établir une période excat et pas très longue afin que la requête puisse fonctionner.
+ Cette deuxième requête établit un classement du nombre de films par genre et par année de 1945 à 1990. Il fut nécessaire d'établir une période exacte et relativement courte afin que la requête puisse aboutir.
                                                                                                             
   Résultat :
                                                                                                             
@@ -141,15 +142,15 @@ ORDER BY ?annee
 ## 6. Affinage et nettoyage des dataset <a id="T6"></a>
   
 L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, organiser et uniformiser mon jeu de données afin de l'exploiter plus facilement. 
-OpenRefine m'a permis d'organiser la mise en forme de mon jeu de données comme par exemple la nomenclature non uniforme des pays. Ainsi, j’ai uniformisé le tout par le biais de la fonction « grouper et éditer » et « remplacer ».
-J’ai fait le choix stratégique de ne retenir que les entrées plus pertinentes et d'éliminer les autres afin de ne pas allourdire mon jeu de données. 
-J’ai choisi une période charnière de mon étude, j’ai retiré les autres car ça alourdissait mon jeu de données et inexploité, j’ai choisi de masquer certaines colonnes telles les données financiers.
+OpenRefine m'a permis d'organiser la mise en forme de mon jeu de données comme par exemple la nomenclature non uniforme que j'ai constaté au niveau des pays. Ainsi, j’ai uniformisé le tout par le biais de la fonction « grouper et éditer » et « remplacer ».
+J’ai fait le choix stratégique de ne retenir que les entrées les plus pertinentes et d'éliminer les autres afin de ne pas allourdir mon jeu de données. 
+J’ai choisi une période charnière de mon étude, j’ai retiré les autres données car elles demeuraient inexploitées; pour se faire j’ai choisi de masquer certaines colonnes notamment celles relatives au volet financier (recette en million d'euros des films) 
 
-Dans mon étude je ne me suis pas intéressée aux bénéfices financiers mais plutôt à l’aspect culturel du cinéma. Certes, d'une part il y a dans des colonnes des jeux de données que j’ai choisi d’occulter, mais d'autre part il y a des aspects que j’aurais aimé mettre en évidence mais qui n’était pas forcément présent, comme la présence des années 2021 et 2022 mettant en avant le déclin des entrées au cinéma dû à la situation sanitaire mondiale ( fermeture des lieux culturels, confinement, couvre-feu ... ). Malgré mes recherches de dataset français, anglais, hispanique, je n’ai rien trouvé de si permtinent pour mon étude, ce qui m'a poussé à alimenter moi-même mon jeu de données comme l'ajout du paramètre genre qui était pour motrès intéressant à approfondir, dans le but de savoir quels sont les genres les plus appréciés des français. J’ai pris l’initiative d’ajouter 200 entrées au jeu de données «  les meilleurs succès du cinéma depuis 1945 » manuellement. Après cette action, j’ai dû faire un travail d'affinage et nettoyage sur OpenRefine pour que tous ces genres ajoutés soient uniformes de sorte à être exploité par la suite dans le cadre d’une datavisualisation qui met en avant les genres.
+Effectivement, dans le cadre de mon étude je ne me suis pas intéressée aux bénéfices financiers mais plutôt à l’aspect culturel du cinéma. Par ailleurs, il y a certes des données dont je disposais mais que j’ai choisi d’occulter, toutefois il y a des aspects que j’aurais apprécié mettre en évidence mais qui n’était pas forcément présent, je pense notamment à la présence des années 2021 et 2022 mettant en avant le déclin des entrées au cinéma dans le cadre dela situation sanitaire mondiale ( fermeture des lieux culturels, confinement, couvre-feu ... ). Malgré mes recherches de dataset français, anglais, hispanique, je n’ai rien trouvé de similaire pour mon étude, c'est d'ailleurs ce qui m'a poussé à alimenter moi-même mon jeu de données par le biais de l'ajout de la colonne "genre" qui semblait selon moi intéressante à approfondir, dans le but de savoir quels sont les genres les plus appréciés des français. J’ai pris l’initiative d’ajouter 200 entrées au jeu de données « les meilleurs succès du cinéma depuis 1945 » manuellement, ce qui a supposé préalablement un effort de documentation pour trouver le meilleur site habilité à qualifier le genre du fim en question. Après cette action, j’ai dû faire un travail d'affinage et nettoyage sur OpenRefine pour que tous ces genres ajoutés soient uniformes de sorte à être exploité par la suite dans le cadre d’une datavisualisation.
 
- Avec OpenRefine, je me suis assuré de n’avoir aucun doublon car mon jeu de données était assez conséquent.
+Avec OpenRefine, je me suis assurée de n’avoir aucun doublon car mon jeu de données était assez conséquent.
  
- Ci-dessous vous verrez l'un des fichiers OpenRefine que j'ai utilisé.
+ Ci-dessous vous pourrez observer l'un des fichiers OpenRefine que j'ai utilisé.
 
 
 ```sparql
