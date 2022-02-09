@@ -41,11 +41,12 @@ Classement des établissements cinématographiques par département en 2018 :
 Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par département démontre l'ascendence du cinéma sur l'ensemble des régions françaises. Les taux de concentration des départements les plus forts sont dispersés un peu partout en France, du nord (59, 77, 78, 91, 92, 94) au sud (83), de l'ouest (44, 35, 33) à l'est (38, 73). Ces fortes concentrations s'expliquent par de la présence de nombreux évènements tels que le festival de Cannes, César, Reims Polar ...
 La France est bien connu pour ces nombreux festivals de films, qui dépasse largement ceux des autres pays européens.
 
-Carte :
 
-<iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
 ## 2. Le festival, un acteur important de l'image animée en France. <a id="T2"></a>
+
+
+<iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/geolocalisation_des_cines_actifs/?&static=false&scrollWheelZoom=false"></iframe>
 
 Si la France est incontestablement l'une des capitales mondiales du cinéma, cette statistique montre que Paris apprécie particulièrement l'art et le divertissement du cinéma. Pour mettre le reste du monde en perspective, les États-Unis comptent un écran pour 7 400 personnes, et le Royaume-Uni et l'Allemagne un écran pour 17 000 personnes. 
 
@@ -59,15 +60,14 @@ Fréquentation des cinémas :
 
 <iframe title="Fréquentation des salles de cinéma en France " aria-label="Interactive line chart" id="datawrapper-chart-5rT3e" src="https://datawrapper.dwcdn.net/5rT3e/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
-
-Les français 
+ 
 
 Jeu de données des cinémas :
   
 <iframe title="Jeu de données recensant la fréquentation des salles de cinéma" aria-label="Tableau" id="datawrapper-chart-giWSt" src="https://datawrapper.dwcdn.net/giWSt/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="783"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
   
-  Ce tableau nous permet de voir l'évolution des places d'entrées au cinéma en France. Les couleurs foncées de la colonne "entrée (en millions)" nous montre le taux d'influence les plus forts dans les cinémas français.
+  Ce tableau nous permet de voir l'évolution des places d'entrées au cinéma en France. De 1938 à 1958, la fréquentation des salles de cinéma en France était à son apogée ( sauf pendant la période de la seconde guerre mondiale ). Durant cette période, les cinémas représentaient la nouveauté et la modernité, d'où la forte influence. Puis les années qui suivirent il y eut un déclin dû à l'apparition de la télévision ( nouveau concept ) qui s'est imposé et a mis à l'écart le cinéma.
 
   
 ## 4. Les genres les plus appréciés par les français depuis 1945. <a id="T4"></a>
