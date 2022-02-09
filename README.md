@@ -98,6 +98,124 @@ SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr".
 Ainsi nous pouvons constater grâce à cette carte que les lieux d'histoire des se déroulent principalement en Europe et se concentre bien dans le territoire français.
   
 ## 6. Affinage et nettoyage des dataset <a id="T6"></a>
+  
+L'utilisation d'OpenRefine a été bénéfique puisqu'il m'a permis de filtrer, organiser et uniformiser mon jeu de données afin de pouvoir l'exploiter plus facilement. 
+  
+  [
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "entrées (millions)2",
+    "newColumnName": "entrées (en millions)",
+    "description": "Rename column entrées (millions)2 to entrées (en millions)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "nationalité1",
+    "newColumnName": "nationalité",
+    "description": "Rename column nationalité1 to nationalité"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nationalité",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FR / BE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FR/BE"
+      }
+    ],
+    "description": "Mass edit cells in column nationalité"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nationalité",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IT/FR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FR/IT"
+      }
+    ],
+    "description": "Mass edit cells in column nationalité"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nationalité",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AT"
+      }
+    ],
+    "description": "Mass edit cells in column nationalité"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "titre",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Genre",
+    "columnInsertIndex": 2,
+    "description": "Create column Genre at index 2 based on column titre using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Lignes étoilées",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
 
 ## 7. Conclusion <a id="T7"></a>
 
