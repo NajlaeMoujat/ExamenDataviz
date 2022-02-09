@@ -77,8 +77,15 @@ Dans cette étude du cinéma et des français, il est intéréssant de savoir qu
 <iframe src='https://flo.uri.sh/visualisation/8647073/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647073/?utm_source=embed&utm_campaign=visualisation/8647073' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 <iframe src='https://flo.uri.sh/visualisation/8647794/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/8647794/?utm_source=embed&utm_campaign=visualisation/8647794' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-  
 
+ 
+ L'évolution des différents types de genres cinématographiques au fil des années :
+ 
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fannee%20%28COUNT%28%3F_genre%29%20AS%20%3FNombredeFilm%20%29%28SAMPLE%28%3F_genreLabel%29%20AS%20%3Fgenre%20%29%0AWHERE%20%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ11424.%20%20%0A%3Fitem%20wdt%3AP577%20%3Fdate_publication.%0A%3Fitem%20wdt%3AP136%20%3F_genre.%20%0A%3F_genre%20rdfs%3Alabel%20%3F_genreLabel.%0ABIND%28str%28YEAR%28%3Fdate_publication%29%29%20AS%20%3Fannee%29%0AFILTER%28%28LANG%28%3F_genreLabel%29%29%20%3D%20%22fr%22%29%20%0A%0AFILTER%20%28%28%3Fdate_publication%20%3E%3D%20%221945-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%20%26%26%20%28%3Fdate_publication%20%3C%3D%20%221990-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%29%0A%7D%0AGROUP%20BY%20%3F_genreLabel%20%3Fannee%0AORDER%20BY%20%3Fannee" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+ 
+ Les films dramatiques occupent la première la place, qui sont suivis des films de comédie. Ces deux genres sont les plus appréciés par l'audience française de 1945 à 1990.
+ 
+ 
 ## 5. Requêtes Wikidata <a id="T5"></a>
 
  
@@ -124,7 +131,7 @@ FILTER ((?date_publication >= "1945-01-01T00:00:00Z"^^xsd:dateTime) && (?date_pu
 GROUP BY ?_genreLabel ?annee
 ORDER BY ?annee
 ````
- Cette deuxième requête établit un classement du nombre de films par genre et par année.
+ Cette deuxième requête établit un classement du nombre de films par genre et par année de 1945 à 1990. Il fut nécessaire d'établir une période excat et pas très longue afin que la requête puisse fonctionner.
                                                                                                             
   Résultat :
                                                                                                             
