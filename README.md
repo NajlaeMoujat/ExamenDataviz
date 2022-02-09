@@ -34,11 +34,12 @@ Ce jeu de données révèle que la France dispose d'un très large pannel de cin
 
 
 
-Classement des établissements cinématographiques par région en 2018 :
+Classement des établissements cinématographiques par département en 2018 :
 
 <iframe frameborder="0" width="800" height="600" src="https://data.opendatasoft.com/map/embed/frequentationcine/?&static=false&scrollWheelZoom=false"></iframe>
 
-Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par démontre l'ascendence du cinéma sur l'ensemble des régions françaises.
+Comme nous le savons, le cinéma occupe une grande place dans la culture française. Ainsi le classement des établissements cinématographique par département démontre l'ascendence du cinéma sur l'ensemble des régions françaises. Les taux de concentration des départements les plus forts sont dispersés un peu partout en France, du nord (59, 77, 78, 91, 92, 94) au sud (83), de l'ouest (44, 35, 33) à l'est (38, 73). Ces fortes concentrations s'expliquent par de la présence de nombreux évènements tels que le festival de Cannes, César, Reims Polar ...
+La France est bien connu pour ces nombreux festivals de films, qui dépasse largement ceux des autres pays européens.
 
 Carte :
 
