@@ -85,15 +85,17 @@ Jeu de données des cinés :
 SELECT ?film ?filmLabel ?lieu_histoire ?lieu_histoireLabel ?coordonees 
 WHERE 
 {
-?film wdt:P840 ?lieu_histoire ;
-wdt:P31 wd:Q11424 .
-?lieu_histoire wdt:P625 ?coordonees .
+?film wdt:P31 wd:Q11424 . #permet de trouver les films
+?film wdt:P840 ?lieu_histoire . #permet de trouver les lieux d'histoire des films
+?lieu_histoire wdt:P625 ?coordonees . #permet de trouver les coordonnées géographiques de ces lieux
   
 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
 }
 ````
   
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Les%20films%20positionn%C3%A9s%20sur%20une%20carte%20en%20fonction%20des%20lieux%20de%20leur%20histoire%0A%23defaultView%3AMap%0ASELECT%20%3Ffilm%20%3FfilmLabel%20%3Flieu_histoire%20%3Flieu_histoireLabel%20%3Fcoordonees%20WHERE%20%7B%0A%3Ffilm%20wdt%3AP840%20%3Flieu_histoire%20%3B%0Awdt%3AP31%20wd%3AQ11424%20.%0A%3Flieu_histoire%20wdt%3AP625%20%3Fcoordonees%20.%0ASERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cfr%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+  
+Ainsi nous pouvons constater grâce à cette carte que les lieux d'histoire des se déroulent principalement en Europe et se concentre bien dans le territoire français.
   
 ## 6. Affinage et nettoyage des dataset <a id="T6"></a>
 
