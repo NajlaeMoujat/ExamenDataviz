@@ -279,17 +279,13 @@ Cela s'explique par le fait que la France ne produit pas seulement des films pou
 Les Français utilisent l'expression "cinéma d'art et d'essai" pour décrire les films qui ont de l'ambition, mais dont le but artistique et expressif l'emporte sur la rentabilité.
 Paris accueille ces films spéciaux grâce à sa forte culture cinématographique et au grand nombre de cinémas indépendants qui sont des lieux parfaits pour les projections.
 
-Contrairement à France, les autres pays ont tendance à séparer les films d'art et d'essai des superproductions en les projetant dans des cinémas différents, mais les cinémas parisiens indépendants comblent le fossé et donnent aux cinéphiles l'occasion unique de voir tout l'éventail de ce qui est proposé.
-
-Cela souligne l'attitude ouverte de Paris à l'égard des films et l'appréciation de la population parisienne pour toutes les formes de grand écran.
+Contrairement à France, les autres pays ont tendance à séparer les films d'art et d'essai des superproductions en les projetant dans des cinémas différents, mais les cinémas parisiens indépendants comblent le fossé et donnent aux cinéphiles l'occasion unique de voir tout l'éventail de ce qui est proposé. Cela souligne l'attitude ouverte de la France à l'égard des films et l'appréciation de la population française pour toutes les formes de grand écran.
  
-Paris s'est imposée comme une ville dont le cinéma est profondément ancré dans sa culture.
-
  
 J’ai pris plaisir à faire cette étude car je suis une véritable cinéphile, j’en ai appris davantage sur le sujet, en découvrant l’importance du cinéma, l’importance que le grand occupe au sein du patrimoine culturel français. C’est une expérience nouvelle car je n’ai jamais manipulé de jeux de données aussi importants auparavant. L’air de rien des outils tels que OpenRefine sont d’une grande aide. J’ai apprécié le travail qu’il est possible de faire via la datavisualisation en terme de représentation. La donnée a un véritable poids,un graphisme bien pensé est bien plus évocateur qu'une quantité de données : Flourish et Datawrapper  m'ont permis d'opter pour dess datavisualisations relativement claires et attrayantes en terme de mise en forme.
  
 Néanmoins, j’ai toutefois été confronté à certaines limites d'ordre technique mais également en termes de ressources car les jeux de données propre au cinéma français demeurent peu nombreux, mis à part ceux mis à disposition par le Centre National de Cinéma et de l’Image Animée et quelques jeux de données mis à disposition via data.gouv.fr. Ces derniers ne sont pas monnaie courrante dans le domaine du cinéma. 
-Danss les jeux de donées qu'il m'a été donné d'observer, il manquait des paramètres tel que le genre qui me semblait relativement pertinent dans le cadre d'une datavisulation afin de mettre en lumière les genres les plus appréciés par les français depuis 1945 par exemple.
+Dans les jeux de donées qu'il m'a été donné d'observer, il manquait des paramètres tel que le genre qui me semblait relativement pertinent dans le cadre d'une datavisulation afin de mettre en lumière les genres les plus appréciés par les français depuis 1945 par exemple.
  
 Malgré avoir utilisé OpenRefine et avoir uniformisé les jeux de données parfois il y a des données qui apparaissaient en doublon ou en diverses catégories distinctes alors qu’il s’agissait de la même nomenclature pour laquelle j'avais apporté une attention toute particulière à la casse. Ces valeurs apparaissant plusieurs fois lors de la réalisation de datavisulations elles consitutaient des biais évidents ce qui m’a conduit à ne pas représenter les représenter.
 
